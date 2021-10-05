@@ -1,10 +1,10 @@
 # python packages 
 ## In mark down language
-We learned that modules are files containing Python statements and definitions, like function and class definitions. We will learn in this chapter how to bundle multiple modules together to form a package.
+## WHAT IS PYTHON PACKAGE?
+A python package is a collection of modules. Modules that are related to each other are mainly put in the same package. When a module from an external package is required in a program, that package can be imported and its modules can be put to use.
 
-A **_package_** is basically a directory with Python files and a file with the name __init__.py. This means that every directory inside of the Python path, which contains a file named __init__.py, will be treated as a package by Python. It's possible to put several modules into a Package.
-
-Packages are a way of structuring Python’s module namespace by using "dotted module names". A.B stands for a submodule named B in a package named A. Two different packages like P1 and P2 can both have modules with the same name, let's say A, for example. The submodule A of the package P1 and the submodule A of the package P2 can be totally different. A package is imported like a "normal" module. We will start this chapter with a simple example.
+# HOW DO USE PYTHON PACKAGES?
+You can import modules in the directory you run the program in directly, but if you want to import modules from other directories, you have to let Python know that the directory you’re importing from is a Python package. To do that, you put a file called init.py in that directory.
 
 
 ![Alt text](https://citrusbug.com/storage/uploads/blog/Python%20Libraries/Top-Python-Libraries.jpg)
